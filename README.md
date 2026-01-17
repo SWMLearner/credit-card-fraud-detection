@@ -77,6 +77,15 @@ Stacked Model 0.80 0.85 0.82 0.923
 · Python 3.8+
 · Google Colab or Jupyter Notebook environment
 
+### 🖥️ Runtime & Hardware
+
+This project was developed and tested in **Google Colab** using the **T4 GPU** runtime. GPU acceleration is required for:
+- Training the `cuml` Random Forest classifier
+- Running the optimized `xgboost` classifier with `device='cuda'`
+
+To replicate the exact environment in Colab:  
+**Runtime → Change runtime type → Hardware Accelerator → T4 GPU**
+
 ### Installation
 
 1. Clone this repository:
