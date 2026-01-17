@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 ### Running the Analysis
 
-Open and run the notebook credit_card_fraud_detection.ipynb in Google Colab or Jupyter Notebook.
+Open and run the notebook credit_card_fraud_detection.py in Google Colab or Jupyter Notebook.
 
 For Colab users, click the link below to open directly in Colab:
 https://colab.research.google.com/drive/1_VJzqsPvtiJ27yMOlS-7zXhF0D3Wx7Bw?usp=sharing
@@ -103,7 +103,7 @@ https://colab.research.google.com/drive/1_VJzqsPvtiJ27yMOlS-7zXhF0D3Wx7Bw?usp=sh
 
 ```
 credit-card-fraud-detection/
-├── credit_card_fraud_detection.ipynb  # Main analysis notebook
+├── credit_card_fraud_detection.py  # Main analysis notebook
 ├── README.md                          # Project documentation (this file)
 ├── requirements.txt                   # Python dependencies
 └── images/                            # Generated visualizations
