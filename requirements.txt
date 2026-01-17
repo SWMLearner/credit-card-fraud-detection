@@ -1,7 +1,14 @@
+# Core Libraries
 pandas>=1.5.0
 numpy>=1.23.0
 scikit-learn>=1.2.0
 imbalanced-learn>=0.10.0
-xgboost>=1.7.0
 matplotlib>=3.6.0
 seaborn>=0.12.0
+
+# Machine Learning (CPU versions for compatibility)
+xgboost>=1.7.0  # Will use CPU if CUDA not available
+
+# Note: GPU libraries (cupy, cuml) are typically 
+# installed via Colab's system packages or with:
+# `pip install cupy-cuda12x cuml-cu12 -f https://wheel.cupy.dev/preview/`
