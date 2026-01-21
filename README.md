@@ -18,6 +18,23 @@ A machine learning project for detecting fraudulent credit card transactions usi
 
 This project analyzes credit card transaction data to build and evaluate models that can identify fraudulent activity. The dataset is highly imbalanced (only 0.17% fraud cases), presenting significant challenges for traditional classification methods.
 
+
+### 🛠️ Skills & Technologies
+This project demonstrates practical experience with:
+
+| Category | Technologies & Skills |
+|----------|----------------------|
+| **Programming** | Python, Markdown |
+| **Data Processing** | pandas, NumPy, scikit-learn (StandardScaler, train_test_split) |
+| **Machine Learning** | Logistic Regression, Random Forest, XGBoost, Stacked Ensembles |
+| **Imbalanced Data** | SMOTE (imbalanced-learn), precision-recall tradeoff analysis |
+| **Model Evaluation** | Confusion matrices, ROC-AUC, F1-score, classification reports |
+| **GPU Acceleration** | cuML, XGBoost with CUDA, Google Colab T4 GPU runtime |
+| **Data Visualization** | Matplotlib, Seaborn, correlation heatmaps, feature importance plots |
+| **Version Control** | GitHub, repository documentation |
+
+
+
 ### 🔑 Key Features
 
 · Multiple Model Comparison: Logistic Regression, Random Forest, XGBoost, and Stacked Ensemble
