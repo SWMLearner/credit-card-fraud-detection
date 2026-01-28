@@ -1,16 +1,16 @@
-# Credit Card Fraud Detection
+# 🛡️ Credit Card Fraud Detection: Mastering High-Stakes Imbalanced Classification
 
-A machine learning project for detecting fraudulent credit card transactions using various classification algorithms.
+**A practical ML project tackling the critical challenge of identifying fraudulent transactions within a highly imbalanced dataset (0.17% fraud), optimizing the precision-recall trade-off using SMOTE and ensemble methods.**
 
-
-| **Aspect** | **Details** |
+| **Aspect** | **Solution** |
 |------------|-------------|
-| **Best Model** | Stacked Ensemble (Random Forest + XGBoost) |
-| **Performance** | 80% precision, 85% recall, 0.82 F1-Score |
-| **Key Technique** | SMOTE for class imbalance handling |
-| **Runtime** | Google Colab with T4 GPU |
-| **Dataset Size** | 284,807 transactions (0.17% fraud) |
-| **Code** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_VJzqsPvtiJ27yMOlS-7zXhF0D3Wx7Bw) |
+| **Core Challenge** | Extreme class imbalance (492 frauds in 284,807 transactions) |
+| **Best Model** | **Stacked Ensemble** (Random Forest + XGBoost) |
+| **Key Result** | **80% Precision** & **85% Recall** - balancing detection vs. false alarms |
+| **Crucial Technique** | SMOTE for intelligent oversampling of the minority class |
+| **Performance** | Achieved a robust **0.82 F1-Score** |
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_VJzqsPvtiJ27yMOlS-7zXhF0D3Wx7Bw) 
 
 
 
